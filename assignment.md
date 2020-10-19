@@ -1,7 +1,7 @@
 # Web Development: Dynamically Generated Content 
 ## Assignment 1
 
-100 Points
+100 Points<br/>
 Due Oct 27 at 1700 (5pm)
 
 ### Summary
