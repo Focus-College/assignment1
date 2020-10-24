@@ -1,0 +1,134 @@
+html {
+    height: 100%;
+}
+
+html{
+    position:relative; 
+    min-height: 100%;
+}
+
+body {
+    font-family: 'Geneva', sans-serif;
+    background-color: black;
+}
+
+.pageContentWrapper{
+    margin-bottom:50px;/* Height of footer*/
+} 
+
+.navbar {
+    box-shadow: 3px 5px;
+    color: black;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:100px;
+    background:#ccc;
+}
+
+.maintext {
+    color: white;
+    position: relative; top: 15%;
+    margin: 20px;
+}
+
+.underconstruction img {
+    margin: 25px;
+    scale: 50%;
+    position: relative; top: 50%; left: 50%;
+}
+
+.footer a  {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 45px;
+    margin-left: 105px;
+    text-shadow: 2px 2px #ffffff;
+    position: relative; top: 40px;
+}
+
+.title {
+    font-size: 3.0rem;
+    text-align: center;
+    position: center;
+    color: darkblue;
+}
+
+.bio {
+    margin: 25px;
+    scale: 50%;
+    position: relative; top: 25%; left: 25%;
+}
+
+.bio .ctr {
+    padding: 10px;
+}
+
+.bio-entry {
+    padding: 10px;
+}
+
+.projects {
+    padding: 34px 17px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.project {
+    width: 25%;
+    margin-top: 20px;
+    margin-bottom: 34px;
+}
+
+.project h1 {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 2.0rem;
+    text-align: center;
+}
+
+.project img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.project .project-ctr {
+    margin-top: 20px;
+    margin-left: 17px;
+    margin-right: 17px;
+    background-color: aliceblue;
+    height: 100%;
+    box-shadow: 5px 10px;
+}
+
+.project .project-ctr:hover {
+    animation: pulse 5s infinite;
+}
+
+
+
+.project p {
+    padding: 17px;
+}
+
+.smb-img {
+    scale: 50%;
+    display: flex;
+    align-items: center;
+}
+
+@keyframes pulse {
+    0% {background-color: aliceblue;}
+    50% {background-color: yellow;}
+    100% {background-color: aliceblue;}
+}
