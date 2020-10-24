@@ -42,23 +42,13 @@ body {
     position: relative; top: 50%; left: 50%;
 }
 
-.bio {
-    margin: 25px;
-    scale: 50%;
-    position: relative; top: 25%; left: 25%;
-}
-
 .footer a  {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-right: 45px;
     margin-left: 105px;
+    text-shadow: 2px 2px #ffffff;
     position: relative; top: 40px;
-}
-
-.underconstruction img {
-    margin: 25px;
-    scale: 50%;
 }
 
 .title {
@@ -66,6 +56,12 @@ body {
     text-align: center;
     position: center;
     color: darkblue;
+}
+
+.bio {
+    margin: 25px;
+    scale: 50%;
+    position: relative; top: 25%; left: 25%;
 }
 
 .bio .ctr {
@@ -123,6 +119,12 @@ body {
 
 .project p {
     padding: 17px;
+}
+
+.smb-img {
+    scale: 50%;
+    display: flex;
+    align-items: center;
 }
 
 @keyframes pulse {
