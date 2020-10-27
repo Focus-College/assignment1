@@ -1,0 +1,92 @@
+<!-- Page 5: Contact 
+
+Create a contact page that provides direct contact information 
+(email, phone, etc) and a link to your github profile -->
+
+<!DOCTYPE html>
+ <html>
+    <head>
+         <title>Colby Boettcher</title>
+         <link rel="stylesheet" href="styles/reset.css">
+         <link rel="stylesheet" href="styles/style.css">
+         <link href="./partials/header.html" rel="import" />
+    </head>
+    <body id="contact-body">
+        <header>
+        
+            <div class="header-nav">
+                <a class="nav-item" href="./index.html">Home</a>
+                <a class="nav-item" href="./biography.html">Biography</a>
+                <a class="nav-item" href="./portfolio.html">Portfolio</a>
+                <a class="nav-item" href="./interests.html">Interests</a>
+                <a class="nav-item" href="./contact.html">Contact</a>
+            </div>
+        </header>
+        <main>
+
+            <section class="contact-header">
+                <div>
+                    <h1>Contact Me!</h1>
+                    <p>Lets Work Together! </p>
+                </div>
+            </section>
+
+            <section class="contact-content">
+                <div class="contact-form">
+                    <form action="#">
+                        <table>
+                            <tr>
+                                <td>
+                                    <input type="text"  placeholder="First Name" required>
+                                </td>
+                                <td>
+                                    <input type="text" placeholder="Last Name" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="email" placeholder="Email" required>
+                                </td>
+                                <td>
+                                    <input type="phonenumber" placeholder="Phone Number (optional)">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input id="content" type="text"  placeholder="What Can I Do For You?" required>
+                                </td>
+                            </tr>
+                        </table>
+                        <button id="contact-btn" type="submit">Contact Me!</button>
+                    </form>
+                </div>
+                <div class="contact-detail">
+                    <div class="contact-personal line-spacing">
+                        <details>
+                            <summary><h3>Colby Boettcher</h3></summary>   
+                            <p>#304 3533 Carrington Rd</p>
+                            <p>West Kelowna, BC</p>
+                        </details>
+                    </div>
+                    <div class="contact-direct">
+                        <details>
+                            <summary><h3>Direct Contact</h3></summary>
+                            <p>(250)864-7452</p>
+                            <p>colby.boettcher@gamil.com</p>
+                        </details>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer id="contact-footer">
+            <div class="footer">
+                &copy; 2020 Focus College - Colby Boettcher
+                <a href="./biography.html">Biography</a>
+                <a href="./portfolio.html">Portfolio</a>
+                <a href="./interests.html">Interests</a>
+                <a href="./contact.html">Contact Me</a>
+            </div>
+        </footer>
+    </body>
+ </html>

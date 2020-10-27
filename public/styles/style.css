@@ -1,0 +1,440 @@
+/* -----------------------------------GLOBAL SCOPE STYLES----------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300;400;700&display=swap');
+html{
+    font-family: 'Averia Serif Libre', cursive;  
+}
+body{
+    background-color: white
+}
+h1 {
+    text-shadow: 1px 2px darkslategrey;
+}
+
+.header-nav {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 3rem;
+    background-color: grey;
+}
+
+.nav-item {
+    padding: .70rem;
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.nav-item:hover{
+    background-color: rgb(255, 255, 255);
+    font-weight: bolder;
+    color: black;
+    border-radius: 20px;
+}
+
+.more-btn{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    background-color: aqua;
+    box-shadow:2px 2px #888888;
+}
+.more-btn:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+footer{
+    margin-top: 20px;
+    height: 50px;
+    background-color: rgb(65, 61, 61);
+}
+.footer{
+    padding-top: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+    color: white;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+table{ 
+    width: 65vw;
+}
+tr{
+/* border: 1px solid black; */
+width: 100rem;
+}
+td{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+td h2{
+font-size: 25px;
+}
+
+td img{
+   height: fit-content;
+    /* position: static; */
+    /* height: 300px;
+    width: auto; */
+}
+
+td h2 span{
+    font-size: 20px;
+
+}
+table input {
+    display: flex;
+    justify-content: center;
+    border: 1px solid   black;
+    min-width: 90%;
+    max-width: 100%;
+}
+/* -----------------------------------HOME PAGE STYLES----------------------------------- */
+.home-feature{
+    background-color: aqua;
+    opacity: .5;
+    width: 600px;
+    height: 250px;
+    border: 1px solid black;  
+    position: absolute;
+    top: 15%;
+    left: 60px;
+    border-radius: 25px;
+}
+
+.home-feature h1{
+    position: absolute;
+    text-decoration: underline;
+    top: 20%;
+    left: 60px;
+    font-size: 60px;
+    font: black;
+}
+.home-feature p{
+    position: absolute;
+    top: 60%;
+    left: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+    opacity: 1;
+}
+.home-header
+ {
+    height: 400px;
+    background-image: url("https://img1.wsimg.com/isteam/ip/3adab336-eec1-431b-a89c-93203d7b2632/quailsgate2.jpg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:1280") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: top;
+}
+
+
+
+.highlight-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.feature-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.highlight-card {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}
+
+.card-image{
+    height: 350px;
+    width: 350px;
+    border-radius: 25px;
+}
+.card-title{
+    font-size: 30px;
+    margin-bottom: 2rem;
+}
+.card-description{
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* -----------------------------------BIO PAGE STYLES----------------------------------- */
+
+.bio-header{
+    background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+    padding-top: 25px;
+    display: flex;
+    height: 350px;
+
+}
+.bio-header-text{
+    position: absolute;
+    background-color: aqua;
+    opacity: .75;
+    width: 600px;
+    height: 200px;
+    top: 150px;
+    left: 400px;
+    border-radius: 15px;
+}
+.bio-header-text h1{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-size: 50px;
+    text-decoration: underline;
+}
+.bio-header-text p{
+    position: absolute;
+    top: 100px;
+    left: 15px;
+    font-size: 20px;  
+}
+
+#bio_self_picture{
+    position: absolute;
+    top: 75px;
+    left: 70px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.biography-text{
+    margin: 75px 30px 30px 30px;
+    line-height: 25px;
+    height: 200px;
+    font-size: 20px;
+}
+.bio-content{
+    display: flex;
+    width: 100vw;
+    height: auto;
+}
+.bio-detail{
+    margin-left: 20px;
+    margin-right: 20px;
+    align-self: center;
+    text-align: justify;
+
+}
+.bio-content img{
+    height: 400px;
+    width: auto;
+    border-radius: 25px;
+    margin-right: 50px;
+}
+#bio-footer{
+    margin-top: 20%;
+}
+
+
+/* -----------------------------------PORTFOLIO PAGE STYLES----------------------------------- */
+.portfolio-details{
+    padding: 50px;
+    text-align: justify;
+    vertical-align: top;
+    margin:50px;
+}
+.portfolio-details h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.portfolio-details p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.portfolio-header{
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1544256718-3bcf237f3974?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+   margin-bottom: 40px;
+}
+.portfolio-header h1{
+    padding: 30px;
+    color: white;
+    font-size: 60px;
+}
+.portfolio-header p{
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+}
+.portfolio-content{
+    display: flex;
+}
+
+.portfolio-content table{
+    width: 100vw;
+}
+
+.portfolio-content img{
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    width: 500px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+} 
+
+/* -----------------------------------INTERESTS PAGE STYLES----------------------------------- */
+.interests-header{
+    height: 500px;
+    background-image: url(https://fstg.motosport.com/motoblog/2013/places-bike1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: top;
+   margin-bottom: 15px;
+   text-align: right;
+}
+.interests-header h1{
+    padding: 20px 120px 30px 30px;
+    color: white;
+    font-size: 60px;
+}
+.interests-header blockquote{
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    font-size: 20px;
+}
+.interest-feature{
+    height: 300px ;
+}
+.interest-content{
+    display: flex;  
+    flex-direction: column;
+    border: 1px solid black;
+}
+.interests-image{
+    height: 275px;
+    width: auto;
+}
+.interest-info{
+    width: 75%;
+}
+.interest-info h2{
+font-size: 50px;
+margin-bottom: 20px;
+margin-top: 20px;
+text-align: center;
+}
+.interest-info p{
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 22px;
+}
+
+.interest-img-left{
+    display: flex;
+    border: 1px solid black;
+}
+.interest-img-right{
+    display: flex;
+    border: 1px solid black;
+}
+/* -----------------------------------CONTACT PAGE STYLES----------------------------------- */
+.contact-header{
+    height: 400px;
+    background-image: url(https://images.unsplash.com/photo-1559030623-0226b1241edd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-position: top;
+   margin-bottom: 40px;
+}
+.contact-header h1{
+    padding: 90px 30px 30px 30px;
+    color: white;
+    font-size: 60px;
+}
+.contact-header p{
+    padding-left: 30px;
+    color: white;
+    font-size: 20px;
+}
+.contact-feature{
+    height: 300px;
+}
+
+.contact-content{
+    display: flex;
+    height: 300px;
+}
+
+.contact-form{
+    margin-left: 30px;
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.contact-form input{
+    font-weight: bolder;
+    font-size: 20px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.contact-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+    margin-right: 60px;
+}
+
+.contact-detail h3{
+font-size: 25px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.contact-detail p {
+font-size: 17px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+#contact-footer{
+    margin-top: 150px;
+}
+#contact-btn{
+    position: relative;
+    left:40%;
+    right: auto;
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    background-color: aqua;
+    border-radius: 25px;
+    font-size: 20px;
+}
+#contact-body{
+    background-image: linear-gradient(red, yellow);
+}
+#content {
+    height: 200px;
+    width: 62vw;
+}
+
