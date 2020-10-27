@@ -1,0 +1,172 @@
+.header {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    height: 11vh;
+    background-image: linear-gradient(to right, rgb(3, 62, 80), rgb(57, 181, 212));
+    text-shadow: 2px 2px black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hpbody{
+    animation: pulse 5s infinite;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes pulse {
+    0% {
+      background-color:rgb(3, 62, 80);
+    }
+    100% {
+      background-color: rgb(57, 181, 212);
+    }
+  } 
+
+.hpsection {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 35%;
+    margin: auto;
+    
+    text-align: center;  
+}
+
+.hparticlefont {
+    font-size: 2rem;
+    
+}
+
+.hpartcontent {
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.articles {
+    padding: 10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+p {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: cursive;
+}
+
+a {
+    padding-top: 10px;
+}
+
+.articlecontent {
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    padding: 15px 7px;
+    width: 23%;
+    margin-bottom: 34px;  
+}
+
+.articlecontent img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.articlecontent h1 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.port {
+    background-color: lightgray;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 25px 25px;
+    width: 25%;
+    height: 25%;
+    font-size: 1.5rem;
+}
+
+.blockq {
+    margin-left: 18%;
+    font-size: 1.2rem;
+    font-style: italic;
+    color: white
+}
+
+.int {
+    font-size: 1.5rem;
+    float: left;
+    margin-left:120px;
+    margin-top: 38px;
+    width: 35%;
+    height: 10%;
+    background-color: rgb(146, 180, 189);
+    border: 1px solid black;
+}
+
+.interests img {
+    float: right;
+    margin: 38px 200px;
+    width: 425px;
+    height: 450px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 30%;
+}
+
+th, tr {
+    border: 1px solid black;
+    width: 30%;
+}
+
+.table {
+    padding-top: 10px;
+}
+
+.biography {
+    font-size: 1.15rem;
+    box-shadow: 10px 10px rgb(56, 123, 139);
+    float: right;
+    margin: 38px 200px; 
+    background-color: rgb(146, 180, 189);
+    border: 1px solid black;
+    width: 30%;
+    height: 20%;
+}
+
+.bioimg {
+    float: right;
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 15%;
+}
+
+.bio {
+    background-color: rgb(146, 180, 189);
+    border: 1px solid black;
+    width: 30%;
+    height: 15%;
+}
+
+.contact {
+    margin-left: 25%;
+    margin-top: 10%;
+    font-size: 2rem;
+    color: white;
+    width: 50%;
+    height: 50%;
+    text-shadow: 2px 2px black;
+}

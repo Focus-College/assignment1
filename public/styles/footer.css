@@ -1,0 +1,47 @@
+.linksinline {
+    display: inline-block;    
+}
+
+.footer{
+    height: 7vh;
+    background-image: linear-gradient(to left, rgb(36, 13, 99), rgb(57, 181, 212));
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerlinkstyle {
+    font-size: 25px;
+    padding: 30px;
+    color:white;
+}
+
+/* .footerbio{
+    font-size: 25px;
+    padding: 30px;
+    color:white;
+}
+
+.footerportfolio {
+    font-size: 25px;
+    padding: 30px;
+    color:white;
+}
+
+.footerinterests {
+    font-size: 25px;
+    padding: 30px;
+    color:white;
+}
+
+.footercontact {
+    font-size: 25px;
+    padding: 30px;
+    color:white;
+} */
+
