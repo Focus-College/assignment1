@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+
+body {
+    font-style: initial;
+    font-family: 'Antic Slab', sans-serif;
+}
+
+.header {
+    height: 25vh;
+    font-size: 4rem;
+    background-color: black;
+    text-align: center;
+    color: #aaa;
+    
+    
+    /* vertical align text*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ports {
+    padding: 34px 17px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.port {
+    width: 50%;
+    margin-bottom: 34px;
+}
+
+.port h1 {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    font-size: 2.0rem;
+    text-align: left;
+}
+
+.port img {
+    width: 400px;
+    height: 200px;
+    border:2px solid #fff;
+    background: lightslategray;
+    box-shadow: 10px 10px 5px #ccc;
+    -moz-box-shadow: 10px 10px 5px #ccc;
+    -webkit-box-shadow: 10px 10px 5px #ccc;
+    -khtml-box-shadow: 10px 10px 5px #ccc;
+
+    
+    
+
+}
+
+.port .port-ctr {
+    margin-left: 17px;
+    margin-right: 17px;
+    background-color: aliceblue;
+    height: 100%;
+}
+
+.port .port-ctr:hover {
+    animation: pulse 5s infinite;
+}
+
+.port p {
+    padding: 17px;
+    text-align: justify;
+
+    
+
+}
+
+.cont {
+    padding: 10px;
+
+}
+@keyframes pulse {
+    0% {background-color:gray;}
+    25% {background-color: white;}
+    50% {background-color: gray;}
+    75% {background-color: white;}
+    100% {background-color:gray;}
+}
+
+.cont {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.cont {
+    font-weight: 700;
+    text-align: center;
+}
+
+#cont li, #toc_container ul, #cont ul li{
+    list-style: outside none none !important;
+}
+table, th, td {
+    border: 3px solid black;
+    line-height: 25px;
+    border-collapse: collapse;
+    border-color: black;
+    background-color: lightpink;
+     text-align: center;
+     Display: flex ;
+     flex-direction: column-reverse;
+     align-self: center;
+     justify-content: center;
+
+  }
