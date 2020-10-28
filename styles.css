@@ -1,0 +1,9 @@
+
+.gradient {
+    background-image: 
+    linear-gradient(yellow);
+    background-image: linear-gradient to bottom, yellow;
+}
+
+
+
